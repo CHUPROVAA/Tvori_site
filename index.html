@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Твори — студия творчества</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo" title="Твори">
+        <img src="images/logo.png" alt="">
+      </a>
+      <nav class="nav nav-left">
+        <a href="index.html" class="active">Главная</a>
+        <a href="catalog.html">Направления</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <nav class="nav nav-right">
+        <a href="#">Поиск</a>
+        <a href="#">Войти</a>
+      </nav>
+      <button class="burger" aria-label="Меню">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <p class="hero-sub">Творческая студия</p>
+          <h1>Твори</h1>
+          <p class="hero-lead">Студия творчества, где каждый может попробовать любое доступное направление — всё зависит от вашей фантазии.</p>
+          <p class="hero-note">Учим рисовать, лепить, создавать руками.<br>Приходите с нуля — уходите с готовой работой и желанием вернуться.</p>
+          <a href="contacts.html" class="btn btn-big">Записаться</a>
+        </div>
+        <div class="hero-photos">
+          <img class="photo-1" src="images/hero-1.png" alt="Лепка из глины">
+          <img class="photo-2" src="images/hero-2.png" alt="Роспись керамики">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Коротко о нас</h2>
+        <div class="about-text">
+          <p>Мы — студия творчества, где каждый может попробовать себя в искусстве. Здесь не важно, умеете ли вы рисовать или лепить — важно желание попробовать.</p>
+          <p>У нас есть живопись и графика, гончарное дело и ручная лепка, поделки, рукоделие и многое другое. Мы работаем со взрослыми и детьми, с новичками и теми, кто хочет совершенствоваться.</p>
+        </div>
+        <div class="about-photos">
+          <img class="photo-small" src="images/about-1.png" alt="Кисти в банке">
+          <img class="photo-wide" src="images/about-2.png" alt="Тюбики с краской">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Популярные направления</h2>
+        <div class="cards">
+        <article class="card" data-price="3999" data-popular="yes">
+          <div class="card-img">
+            <img src="images/pottery.png" alt="Гончарное дело для начинающих">
+            <a href="product.html?id=pottery" class="card-tag">Подробнее</a>
+          </div>
+          <div class="card-body">
+            <h3>Гончарное дело<br>для начинающих</h3>
+            <p>Первое знакомство с глиной и гончарным кругом. Учимся вытягивать стенки и создавать простые формы.</p>
+            <a href="contacts.html" class="btn">Записаться</a>
+          </div>
+        </article>
+        <article class="card" data-price="2999" data-popular="yes">
+          <div class="card-img">
+            <img src="images/drawing.png" alt="Рисование для начинающих">
+            <a href="product.html?id=drawing" class="card-tag">Подробнее</a>
+          </div>
+          <div class="card-body">
+            <h3>Рисование для начинающих</h3>
+            <p>Первое знакомство с живописью. Учимся работать с цветом, формой и композицией. Гуашь, акварель, акрил.</p>
+            <a href="contacts.html" class="btn">Записаться</a>
+          </div>
+        </article>
+        <article class="card" data-price="4999" data-popular="yes">
+          <div class="card-img">
+            <img src="images/oil.png" alt="Живопись маслом">
+            <a href="product.html?id=oil" class="card-tag">Подробнее</a>
+          </div>
+          <div class="card-body">
+            <h3>Живопись маслом</h3>
+            <p>Классическая техника для тех, кто хочет работать с цветом по-настоящему. Учимся смешивать краски, строить форму.</p>
+            <a href="contacts.html" class="btn">Записаться</a>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Наши отзывы</h2>
+        <div class="cards">
+          <article class="review">
+            <div class="review-head"><span class="avatar">М</span><span class="review-name">Марина</span><span class="review-stars">★★★★★</span></div>
+            <p class="review-date">09.03.2026</p>
+            <p>Я не рисовала с школы и боялась, что ничего не получится. На первом занятии мне сказали: «Просто попробуй». Через два часа у меня была готовая картина, а через месяц — целая папка работ.</p>
+          </article>
+          <article class="review">
+            <div class="review-head"><span class="avatar">Н</span><span class="review-name">Наталья</span><span class="review-stars">★★★★★</span></div>
+            <p class="review-date">28.04.2026</p>
+            <p>Ходила на мастер-класс по акварели. Понравилось, что никто не давит и не требует «правильно». Преподаватель показывает, объясняет, но оставляет свободу. Ушла с работой, которую не стыдно повесить дома.</p>
+          </article>
+          <article class="review">
+            <div class="review-head"><span class="avatar">Т</span><span class="review-name">Татьяна</span><span class="review-stars">★★★★★</span></div>
+            <p class="review-date">12.05.2026</p>
+            <p>Дочка ходит с удовольствием. Каждое занятие — новая тема: то лепят, то рисуют, то мастерят. Домой приносит поделки и рассказывает, как делала.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">Твори<small>студия творчества</small></div>
+          <div class="footer-socials">
+            <a href="#" title="Telegram">TG</a>
+            <a href="#" title="VK">VK</a>
+          </div>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <p>tvori@gmail.com</p>
+          <p>+7 (900) 888-21-21</p>
+        </div>
+        <div>
+          <h4>Юридический адрес</h4>
+          <p>г. Москва,<br>Садовническая набережная,<br>д. 9, помещение 2/3</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Навигация</h4>
+          <a href="index.html">Главная</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 TVORI</span>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Условия пользования</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
